@@ -11,7 +11,7 @@ import { CodePicture, Code } from "./your_path/checkcode.js"
 生成包含 `number` 位 `az`、`AZ`、`09` 的字串。
 
 ```javascript
-Example:
+//Example
 console.log(Code.create(5)) //-> asf5q 
 ```
 ### CodePicture 生成驗證碼圖片
@@ -28,12 +28,10 @@ console.log(Code.create(5)) //-> asf5q
 
 #### CodePicture.randomCode;
 該張圖片的內容，方便後續操作。
-
-Example:
- const a = CodePicture; // 採用預設  
- 
- a.drawInterferenceLines(10, 1) // 生成10條寬度為1的干擾線  
- 
- a.createPicture('#app'); // 在id = app的元素中生成一張預設尺寸的圖片  
- 
- console.log(a.randomCode); // 印出該張圖片的字串
+```javascript
+//Example:
+const a = CodePicture; // 採用預設  
+a.drawInterferenceLines(10, 1) // 生成10條寬度為1的干擾線  
+a.createPicture('#app'); // 在id = app的元素中生成一張預設尺寸的圖片  
+console.log(a.randomCode); // 印出該張圖片的字串
+```
