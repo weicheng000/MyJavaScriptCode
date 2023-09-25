@@ -29,7 +29,7 @@ console.log(Code.create(5)) // asf5q
 #### CodePicture.randomCode;
 該張圖片的內容，方便後續操作。
 ```javascript
-//Example:
+//Example
 const a = CodePicture; // 採用預設  
 a.drawInterferenceLines(10, 1) // 生成10條寬度為1的干擾線  
 a.createPicture('#app'); // 在id = app的元素中生成一張預設尺寸的圖片  
