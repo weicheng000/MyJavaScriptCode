@@ -12,7 +12,7 @@ import { CodePicture, Code } from "./your_path/checkcode.js"
 
 ```javascript
 //Example
-console.log(Code.create(5)) //-> asf5q 
+console.log(Code.create(5)) // asf5q 
 ```
 ### CodePicture 生成驗證碼圖片
 提供3個方法和1個屬性：
