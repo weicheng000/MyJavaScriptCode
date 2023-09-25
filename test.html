@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Console</title>
+    <style>
+        .check{
+            width: 100%;
+            padding: 1.25em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    
-    <script src="main.js"></script>
+    <div class="check">
+        <div>
+            <label for="checkInput">請輸入驗證碼: </label>
+            <input type="text" id="checkInput">
+            <button type="button" id="submit">驗證</button>
+        </div>
+    </div>
+    <div class="check">
+        <p id="result"></p>
+    </div>
+    <script type="module" src="main.js"></script>
 </body>
 </html>

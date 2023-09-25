@@ -21,7 +21,7 @@ class CheckCode {
     constructor() {
         this.checkCodeMaker = new CheckCodeMaker();
     }
-    create(length) {
+    create(length=5) {
         return this.checkCodeMaker.generate(length);
     }
 }
