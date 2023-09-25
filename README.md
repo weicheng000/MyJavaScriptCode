@@ -1,9 +1,9 @@
 # MyJavaScriptCode
 ## checkcode.js
 使用以下語法引入:
-
+```javascript
 import { CodePicture, Code } from "./your_path/checkcode.js"
-
+```
 ### Code 生成亂數
 提供一個方法:
 
