@@ -8,7 +8,7 @@ import { CodePicture, Code } from "./your_path/checkcode.js"
 提供一個方法:
 
 #### Code.create(number);
-生成包含 `number` 位 `az`、`AZ`、`09` 的字串。
+生成包含 `number` 位 `a~z`、`A~Z`、`0~9` 的字串。
 
 ```javascript
 //Example
@@ -18,7 +18,7 @@ console.log(Code.create(5)) //-> asf5q
 提供3個方法和1個屬性：
 
 #### CodePicture.createPicture(width: number, height: number, backgroundColor: string, textColor: string);
-預設生成一張寬120、高40，包含8位 a~z、A~Z、0~9 隨機數和5條寬度為5、顏色隨機的干擾線的圖片。
+預設生成一張寬`120`、高`40`，包含8位 `a~z`、`A~Z`、`0~9` 隨機數和`5`條寬度為`5`、顏色隨機的干擾線的圖片。
 
 #### CodePicture.drawInterferenceLines(lineCount: number, lineWidth: number);
 修改干擾線的數量和寬度。
