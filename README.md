@@ -10,9 +10,10 @@ import { CodePicture, Code } from "./your_path/checkcode.js"
 #### Code.create(number);
 生成包含 `number` 位 `az`、`AZ`、`09` 的字串。
 
+```javascript
 Example:
 console.log(Code.create(5)) //-> asf5q 
-
+```
 ### CodePicture 生成驗證碼圖片
 提供3個方法和1個屬性：
 
