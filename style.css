@@ -1,0 +1,9 @@
+@import url(./MyModal.css);
+
+.check{
+    width: 100%;
+    padding: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
